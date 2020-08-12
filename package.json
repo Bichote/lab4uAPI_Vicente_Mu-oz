@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vicente Muñoz",
+  "license": "ISC",
+  "description": "Crud Api Rest AGENDA 12/08/2020",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "node": "^14.7.0"
+  },
+  "devDependencies": {
+    "validator": "^13.1.1"
+  }
+}
