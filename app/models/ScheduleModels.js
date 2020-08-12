@@ -38,7 +38,7 @@ const ScheduleSchema = new Schema({
       type: String,
       required: true,
       trim: true ,
-      maxlength:[100,"La contraseña es demasiada larga"]
+      maxlength:[100,"El comentario es demasiada largo"]
    },
 
    date: {
