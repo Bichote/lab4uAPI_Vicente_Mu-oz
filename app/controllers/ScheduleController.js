@@ -5,7 +5,7 @@ module.exports = { // exportar las funciones al router
     // Funcion asincronica para listar agenda
     show: async (req,res) =>{
         try {
-            const schedule_data = await Schedule.find({}); // Esperar respuesta y guadarla en data
+            const schedule_data = await Schedule.find(); // Esperar respuesta y guadarla en data
             return res.status(200).send(schedule_data); // codigo http 200 = ok
         } catch (error) {
             return res.status(400).send({message:error}) // retornar error con codigo http 400 = bad request

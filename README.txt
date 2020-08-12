@@ -4,8 +4,10 @@ node server = iniciar proyecto
 Se utilizo estructura de modelo vista controlador con funciones asincronas , ademas se utilizo la funcion
 de cluster para aprovechar cada nucleo del procesador , la base de datos es MongoDb.
 
+El proyecto se encuentra en git y publicado en heroku
 
-Postman : POST , http://localhost:5000/schedule/
+
+Postman : POST , https://apilab4u.herokuapp.com/schedule/
 {
     "first_name": "Juan",
     "last_name":"Soto",
@@ -13,7 +15,7 @@ Postman : POST , http://localhost:5000/schedule/
     "commentary": "hola soy un post "
 }
 
-PULL : http://localhost:5000/schedule/_id/5f33ff65045c371b904f2252 , es como decir update from schedule where _id = 5f33ff65045c371b904f2252
+PULL : https://apilab4u.herokuapp.com/schedule/_id/5f33ff65045c371b904f2252 , es como decir update from schedule where _id = 5f33ff65045c371b904f2252
 
 {
     "_id":"5f33ff65045c371b904f2252",
@@ -23,6 +25,6 @@ PULL : http://localhost:5000/schedule/_id/5f33ff65045c371b904f2252 , es como dec
     "commentary": "holA soy un put para modificar"
 }
          
-GET :  http://localhost:5000/schedule/    
+GET :  https://apilab4u.herokuapp.com/schedule/    
 
-DELETE : http://localhost:5000/schedule/_id/5f33ff65045c371b904f2252                    
+DELETE : https://apilab4u.herokuapp.com/schedule/_id/5f33ff65045c371b904f2252                    
